@@ -1,0 +1,10 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: demoapp
+  namespace: demo
+spec:
+  values:
+    replicaCount: 2
+    image:
+      tag: "latest"
