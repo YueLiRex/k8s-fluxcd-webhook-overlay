@@ -7,4 +7,4 @@ spec:
   values:
     replicaCount: 5
     image:
-      tag: "main"
+      tag: "main-live"
